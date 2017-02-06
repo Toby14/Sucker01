@@ -1,0 +1,8 @@
+Fill in the blank?
+int i = 1004;
+int *p = &i;
+int *q = _________;
+
+Ans:
+int *q = &i;
+Or *q = *p;

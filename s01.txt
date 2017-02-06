@@ -1,0 +1,12 @@
+Both declarations below create integer pointers.
+int *p;
+int* q;
+
+The first approach is my choice because it's going to give you more clarity when you declare more than one variables in one line. For instance:
+int *p, *r, *t; // They are the pointers of integer.
+int *p, r, t // p is pointer; r and t are integers.
+													
+While the second approach is not clear or might get confusing for us. 
+For example:
+int* q, t, r; // q is a pointer of integer; t and r are two integers.
+Or int* q, * t, * r; // This is correct of declaration of pointers, but instead putting a space between asterisk and letter we can use the first approach!
