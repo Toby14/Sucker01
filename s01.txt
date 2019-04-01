@@ -10,3 +10,7 @@ While the second approach is not clear or might get confusing for us.
 For example:
 int* q, t, r; // q is a pointer of integer; t and r are two integers.
 Or int* q, * t, * r; // This is correct of declaration of pointers, but instead putting a space between asterisk and letter we can use the first approach!
+
+// MArch 26, 2019
+
+// April 1, 2019
